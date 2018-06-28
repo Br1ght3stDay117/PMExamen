@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Examen</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.1.1-dist/css/bootstrap.css">
+    <script type="text/javascript" src="bootstrap/bootstrap-4.1.1-dist/js/bootstrap.js">
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Segundo examen parcial</h1>
+      </div>
+      <div class="container">
+        <form class="form-group" action="formulario.php" method="post" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="">Nombre Empleado</label>
+            <input type="text" name="nombre" id="nombre" value="" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="form-group">
+            <label for="">Salario Empleado</label>
+            <input type="text" name="salario" id="salario" value="" placeholder="Ingresa tu salario">
+          </div>
+          <div class="form-group">
+            <label for="">Foto empleado</label>
+            <input  type="file" name="fileToUpload" id="fileToUpload" value="">
+          </div>
+          <div class="form-group">
+            <input  class="btn btn-primary" type="submit" name="submit" id="submit" value="Subir foto">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
